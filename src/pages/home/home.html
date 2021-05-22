@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Dashboard Page
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>My Workspace</h2>
+  <div  class="projectBox">
+  <ion-item>
+   <ion-list nolines>
+     <div>{{projectName}}</div>
+   </ion-list>
+   <ion-list nolines>
+    <p>Start Date : {{today | date: 'dd/MM/yyyy'}}</p>
+    <p>Number Of Issues : {{issueCount}}</p>
+   </ion-list>
+  </ion-item>
+    </div>
+</ion-content>

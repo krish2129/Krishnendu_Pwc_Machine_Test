@@ -1,0 +1,45 @@
+page-login {
+
+    .content-md{
+        background:#2B3C46;
+        color:white; 
+    }
+    .login{
+        margin: 105px auto;
+        padding : 20px 20px 20px; 
+        top:-8px;
+        background:#6A777D;
+        border-radius: 4px;
+        width:310px;  
+        border : 1px solid #6a7a84;
+    }
+
+    .login h1{
+        color:white;
+    }
+
+    .login p{
+        color:white;        
+    }
+
+    p.danger{
+        color:red;   
+    }
+
+
+   
+
+    .btnLogin{
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    .button-md{
+        background-color:#E66C69
+    }
+
+    .button-md[disabled]{
+        background-color: #a9a9a9
+    }
+
+}

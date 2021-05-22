@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="container">
+    <div class="login">
+      <ion-list>
+        <h1>PwC's Test Suite</h1>
+        <p>Login below to get started</p>        
+        <p *ngIf="error" class="danger">{{error}}</p>
+        <form (ngSubmit)="doLogin()" [formGroup]="loginForm">
+        <ion-item>
+          <ion-label>User Name </ion-label>
+          <ion-input type="text" [(ngModel)]=userdata.username name="userId" formControlName="username"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Password </ion-label>
+          <ion-input type="text"  [(ngModel)]=userdata.password name="password" formControlName="password"></ion-input>
+        </ion-item>
+        <div class="btnLogin"><button type="submit" red ion-button [disabled]="loginForm.invalid">LOGIN</button></div>
+        </form>
+      </ion-list>
+      </div>
+  </div>
+</ion-content>

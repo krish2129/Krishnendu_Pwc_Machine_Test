@@ -1,0 +1,7 @@
+{
+  "name": "pwcApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

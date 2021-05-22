@@ -1,0 +1,31 @@
+page-home {
+    .content-md{
+        background:#2B3C46;
+        color:white; 
+    }
+
+    .projectBox{
+        position:relative;
+        margin-top: 33px;
+        padding : 20px 20px 20px; 
+        background:#394C57;
+        border-radius: 4px;
+        width:310px; 
+        display:flex;
+        border : 1px solid #6a7a84; 
+    }
+
+    .item-md{
+        background:#394C57;
+        color:#b9c5cb;
+    }
+
+    .item-md p{
+        color:#b9c5cb; 
+    }
+
+    .item-md.item-block .item-inner{
+        border-bottom:0px;
+    }
+
+}
