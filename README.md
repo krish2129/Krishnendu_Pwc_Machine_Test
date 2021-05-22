@@ -21,5 +21,5 @@ Run `ionic cordova build android` to build the project. The build artifacts will
 
 ## Debug APK
 
-Please find the debug APK in root path on `DebugAPK` Directory  `ionic cordova build android`.So you can install this application in debug mode on your Android Mobile Phone.
+Please find the debug APK in root path on `DebugAPK` Directory.So you can install this application in debug mode on your Android Mobile Phone.
 
